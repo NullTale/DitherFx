@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Dither 2
+  m_Name: Vol Dither 3
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 6934178523054437203}
---- !u!114 &6934178523054437203
+  - {fileID: 2783595658416417768}
+--- !u!114 &2783595658416417768
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,22 +32,22 @@ MonoBehaviour:
     m_Value: 1
   m_Power:
     m_OverrideState: 1
-    m_Value: 0.252
+    m_Value: 0.333
   m_Scale:
     m_OverrideState: 1
-    m_Value: 0.434
+    m_Value: 0.704
   m_Pixelate:
     m_OverrideState: 1
     m_Value: 1
   m_Fps:
     m_OverrideState: 1
-    m_Value: 7
+    m_Value: 0
   m_Palette:
     m_OverrideState: 1
-    m_Value: {fileID: 2800000, guid: 46ce6b1f4a262d1489e614d9dc196ad5, type: 3}
+    m_Value: {fileID: 2800000, guid: 5b3d4d134b122e643b0af9e3135ea9ee, type: 3}
   m_Pattern:
     m_OverrideState: 1
-    m_Value: {fileID: 2800000, guid: 577aff5af15489e4bb8c0cc1316a4bb4, type: 3}
+    m_Value: {fileID: 2800000, guid: b7973047285d6dc48a217fb32b7a8ebe, type: 3}
   m_Mode:
     m_OverrideState: 1
     m_Value: 0

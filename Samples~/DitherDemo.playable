@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8248168197016077408
+--- !u!114 &-8529733911872023047
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset(Clone)(Clone)(Clone)(Clone)
+  m_Name: ControlPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   sourceGameObject:
-    exposedName: c25042e9676f8ec4a88bb3cb8b047981
+    exposedName: dc1b865e2d5ba764abeccca7a6a0249f
     defaultValue: {fileID: 0}
   prefabGameObject: {fileID: 0}
   updateParticle: 1
-  particleRandomSeed: 2647
+  particleRandomSeed: 3373
   updateDirector: 1
   updateITimeControl: 1
   searchHierarchy: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -3040567340414298173}
-    m_Duration: 4
+    m_Duration: 6.016666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8103190471882006883}
     m_EaseInDuration: 0
@@ -114,10 +114,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: ABird
   - m_Version: 1
-    m_Start: 7.9999999999999964
+    m_Start: 12.033333333333335
     m_ClipIn: 0
     m_Asset: {fileID: -5701225630010421570}
-    m_Duration: 4
+    m_Duration: 6.016666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8103190471882006883}
     m_EaseInDuration: 0
@@ -183,10 +183,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CatGrave
   - m_Version: 1
-    m_Start: 4
+    m_Start: 6.016666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -3502939150537036133}
-    m_Duration: 4
+    m_Duration: 6.016666666666668
     m_TimeScale: 1
     m_ParentTrack: {fileID: -8103190471882006883}
     m_EaseInDuration: 0
@@ -253,7 +253,7 @@ MonoBehaviour:
     m_DisplayName: GrayBuilding
   m_Markers:
     m_Objects: []
---- !u!114 &-7037930732549747735
+--- !u!114 &-7296404412447423947
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Name: ControlPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   sourceGameObject:
-    exposedName: 8363dbd1835945845b8d317e3b3db8c1
+    exposedName: 051cae26d3dbcf24baaa1684456207af
     defaultValue: {fileID: 0}
   prefabGameObject: {fileID: 0}
   updateParticle: 1
@@ -276,7 +276,7 @@ MonoBehaviour:
   searchHierarchy: 0
   active: 1
   postPlayback: 2
---- !u!114 &-6899053832424723327
+--- !u!114 &-7240289074757669189
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -289,34 +289,11 @@ MonoBehaviour:
   m_Name: ControlPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   sourceGameObject:
-    exposedName: 169acafdaebfb5e4091ad1876e15ab05
+    exposedName: b20f928bd468c4748824267fbfc80257
     defaultValue: {fileID: 0}
   prefabGameObject: {fileID: 0}
   updateParticle: 1
   particleRandomSeed: 3373
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 2
---- !u!114 &-6243650315797448958
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: 00a7ab354829cf44eb44029ccc24b1e7
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 6905
   updateDirector: 1
   updateITimeControl: 1
   searchHierarchy: 0
@@ -340,6 +317,29 @@ MonoBehaviour:
   prefabGameObject: {fileID: 0}
   updateParticle: 1
   particleRandomSeed: 573
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+--- !u!114 &-4877900315963892376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  sourceGameObject:
+    exposedName: ee4b45cb71626914383c599a71b1be05
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 6481
   updateDirector: 1
   updateITimeControl: 1
   searchHierarchy: 0
@@ -393,7 +393,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -1906749302847998446}
-    m_Duration: 1
+    m_Duration: 1.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -459,10 +459,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Pattern
   - m_Version: 1
-    m_Start: 1
+    m_Start: 1.5
     m_ClipIn: 0
     m_Asset: {fileID: 8855996699853492854}
-    m_Duration: 1
+    m_Duration: 1.4955664882436395
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -527,80 +527,80 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Lines
-  - m_Version: 1
-    m_Start: 2
-    m_ClipIn: 0
-    m_Asset: {fileID: -870642586470703649}
-    m_Duration: 1
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -3154682940539490704}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Vol_Noise
   - m_Version: 1
     m_Start: 3
     m_ClipIn: 0
+    m_Asset: {fileID: -870642586470703649}
+    m_Duration: 1.5
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3154682940539490704}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Vol_Noise
+  - m_Version: 1
+    m_Start: 4.5
+    m_ClipIn: 0
     m_Asset: {fileID: -514319491302558736}
-    m_Duration: 1
+    m_Duration: 1.5166666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -666,10 +666,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Glitch
   - m_Version: 1
-    m_Start: 4
+    m_Start: 6.016666666666667
     m_ClipIn: 0
-    m_Asset: {fileID: 3428898869870719397}
-    m_Duration: 1
+    m_Asset: {fileID: 8669599785275541371}
+    m_Duration: 1.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -735,10 +735,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Pattern
   - m_Version: 1
-    m_Start: 5
+    m_Start: 7.5166666666666675
     m_ClipIn: 0
-    m_Asset: {fileID: 4899234041015522519}
-    m_Duration: 1
+    m_Asset: {fileID: 5568576856749522648}
+    m_Duration: 1.4955664882436395
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -804,10 +804,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Lines
   - m_Version: 1
-    m_Start: 6
+    m_Start: 9.016666666666667
     m_ClipIn: 0
-    m_Asset: {fileID: -7037930732549747735}
-    m_Duration: 1
+    m_Asset: {fileID: -7296404412447423947}
+    m_Duration: 1.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -873,10 +873,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Noise
   - m_Version: 1
-    m_Start: 7
+    m_Start: 10.516666666666667
     m_ClipIn: 0
-    m_Asset: {fileID: -6899053832424723327}
-    m_Duration: 1
+    m_Asset: {fileID: -7240289074757669189}
+    m_Duration: 1.5166666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -942,10 +942,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Glitch
   - m_Version: 1
-    m_Start: 8
+    m_Start: 12.033333333333335
     m_ClipIn: 0
-    m_Asset: {fileID: 3103922253938027270}
-    m_Duration: 1
+    m_Asset: {fileID: -4877900315963892376}
+    m_Duration: 1.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -1011,10 +1011,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Pattern
   - m_Version: 1
-    m_Start: 9
+    m_Start: 13.533333333333335
     m_ClipIn: 0
-    m_Asset: {fileID: -8248168197016077408}
-    m_Duration: 1
+    m_Asset: {fileID: 7364679898012016248}
+    m_Duration: 1.4955664882436395
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -1080,10 +1080,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Lines
   - m_Version: 1
-    m_Start: 10
+    m_Start: 15.033333333333335
     m_ClipIn: 0
-    m_Asset: {fileID: -6243650315797448958}
-    m_Duration: 1
+    m_Asset: {fileID: -546271032416588018}
+    m_Duration: 1.5
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -1149,10 +1149,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Vol_Noise
   - m_Version: 1
-    m_Start: 11
+    m_Start: 16.533333333333335
     m_ClipIn: 0
-    m_Asset: {fileID: -864834960909610580}
-    m_Duration: 1
+    m_Asset: {fileID: -8529733911872023047}
+    m_Duration: 1.5166666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: -3154682940539490704}
     m_EaseInDuration: 0
@@ -1288,7 +1288,7 @@ MonoBehaviour:
   searchHierarchy: 0
   active: 1
   postPlayback: 2
---- !u!114 &-864834960909610580
+--- !u!114 &-546271032416588018
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1298,14 +1298,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset(Clone)(Clone)(Clone)(Clone)
+  m_Name: ControlPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   sourceGameObject:
-    exposedName: 259b90ffb7afa314abb9cff6f1c76b89
+    exposedName: 7faaebe535115db499f4783c4cc0c858
     defaultValue: {fileID: 0}
   prefabGameObject: {fileID: 0}
   updateParticle: 1
-  particleRandomSeed: 3373
+  particleRandomSeed: 6905
   updateDirector: 1
   updateITimeControl: 1
   searchHierarchy: 0
@@ -1356,30 +1356,7 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &3103922253938027270
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: d44190ae6a07b3948af1b61bcae5f709
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 6481
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 2
---- !u!114 &3428898869870719397
+--- !u!114 &5568576856749522648
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1392,34 +1369,57 @@ MonoBehaviour:
   m_Name: ControlPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   sourceGameObject:
-    exposedName: c7211d98d3e080f4bb4fae77883354aa
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 6481
-  updateDirector: 1
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 1
-  postPlayback: 2
---- !u!114 &4899234041015522519
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: e4241067b41a25645b7d4c90c1536d18
+    exposedName: 5f3390c501c63e1478c75732d1d439c3
     defaultValue: {fileID: 0}
   prefabGameObject: {fileID: 0}
   updateParticle: 1
   particleRandomSeed: 2647
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+--- !u!114 &7364679898012016248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  sourceGameObject:
+    exposedName: 0b9838b3d8973a646896be8536f3b475
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 2647
+  updateDirector: 1
+  updateITimeControl: 1
+  searchHierarchy: 0
+  active: 1
+  postPlayback: 2
+--- !u!114 &8669599785275541371
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
+  m_Name: ControlPlayableAsset(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  sourceGameObject:
+    exposedName: c3bfe09324b4eb24abbf9a74952d2c28
+    defaultValue: {fileID: 0}
+  prefabGameObject: {fileID: 0}
+  updateParticle: 1
+  particleRandomSeed: 6481
   updateDirector: 1
   updateITimeControl: 1
   searchHierarchy: 0
