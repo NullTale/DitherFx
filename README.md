@@ -1,31 +1,44 @@
-# OldMovieFx
+# DitherFx
 
 [![Twitter](https://img.shields.io/badge/Follow-Twitter?logo=twitter&color=white)](https://twitter.com/NullTale)
+[![Discord](https://img.shields.io/badge/Discord-Discord?logo=discord&color=white)](https://discord.gg/CkdQvtA5un)
 [![Boosty](https://img.shields.io/badge/Support-Boosty?logo=boosty&color=white)](https://boosty.to/nulltale)
 
-OldMovie post effect for Unity Urp, </br>
+Dither post effect for Unity Urp, </br>
 Controlled via volume profile, works as render feature
 
-![_cover](https://github.com/NullTale/OldMovieFx/assets/1497430/8c9c33b5-1a5d-4b92-b2ee-199fb83f97f9)
+COVER
 
 ## Part of Artwork Project
-All effects can work individually or as a part of [VolFx](https://github.com/NullTale/VolFx)
+All effects can work individually or as a part of vfx toolkit [VolFx](https://github.com/NullTale/VolFx)
 
 * [Vhs](https://github.com/NullTale/VhsFx)
-* [OldMovie]
+* [OldMovie](https://github.com/NullTale/OldMovieFx)
 * [GradientMap](https://github.com/NullTale/GradientMapFilter)
 * [ScreenOutline](https://github.com/NullTale/OutlineFilter)
 * [ImageFlow](https://github.com/NullTale/FlowFx)
-* [Pixelation](https://github.com/NullTale/PixelationFx)
+* [Pixelation]
+* [Ascii](https://github.com/NullTale/AsciiFx)
+* [Dither](https://github.com/NullTale/DitherFx)
 * ...
 
 ## Usage
 Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 ```
-https://github.com/NullTale/OldMovieFx.git
+https://github.com/NullTale/DitherFx.git
 ```
 
-Works as render feature, some parameters like jolt range</br>
-and vignette flickering can be configured in the asset.</br>
+Works as render feature, some parameters </br>
+and default volume settings can be configured in the asset.</br>
 
-![image](https://github.com/NullTale/OldMovieFx/assets/1497430/afe0c10b-7364-4922-b87c-3964e1aff226)
+SCREEN
+
+## Tech
+
+The effect works by calculation a deviation for each pixel of the original image from the nearest color,</br>
+if it is large enough it replaces it with the second closest color from the palette doing it according to the ScreenSpace pattern. </br>
+
+Dither Power, palette, pattern type and its animation can be customized in VolumeSettings or in RenderFeature settings.</br>
+All calculations are performed in the fragment shader through hased Lut tables. Tables are generated at Runtime when an unknown palette is used for the first time.</br>
+
+MEDIA
