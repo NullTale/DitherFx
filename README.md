@@ -17,7 +17,7 @@ All effects can work individually or as a part of vfx toolkit [VolFx](https://gi
 * [GradientMap](https://github.com/NullTale/GradientMapFilter)
 * [ScreenOutline](https://github.com/NullTale/OutlineFilter)
 * [ImageFlow](https://github.com/NullTale/FlowFx)
-* [Pixelation]
+* [Pixelation](https://github.com/NullTale/PixelationFx)
 * [Ascii](https://github.com/NullTale/AsciiFx)
 * [Dither](https://github.com/NullTale/DitherFx)
 * ...
