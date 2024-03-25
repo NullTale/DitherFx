@@ -1,0 +1,24 @@
+{
+    "name": "Masking.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b41d46707e286f345b1da94225a3e167"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "www.nulltale.volfx",
+            "expression": "1",
+            "define": "VOL_FX"
+        }
+    ],
+    "noEngineReferences": false
+}
