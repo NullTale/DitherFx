@@ -4,10 +4,12 @@
 [![Discord](https://img.shields.io/badge/Discord-Discord?logo=discord&color=white)](https://discord.gg/CkdQvtA5un)
 [![Boosty](https://img.shields.io/badge/Support-Boosty?logo=boosty&color=white)](https://boosty.to/nulltale)
 
-Dither post effect for Unity Urp, </br>
-Controlled via volume profile, works as render feature
+▒░ Dither post effect for Unity Urp </br>
+▒░ Controlled via volume profile, works as render feature
 
-COVER
+![_cover](https://github.com/NullTale/DitherFx/assets/1497430/1ae1eee8-6240-48cf-8bd7-1a8a0ad26e59)
+![_cover](https://github.com/NullTale/DitherFx/assets/1497430/42f734fb-198f-4542-8e8c-7bde042688dc)
+
 
 ## Part of Artwork Project
 All effects can work individually or as a part of vfx toolkit [VolFx](https://github.com/NullTale/VolFx)
@@ -19,7 +21,7 @@ All effects can work individually or as a part of vfx toolkit [VolFx](https://gi
 * [ImageFlow](https://github.com/NullTale/FlowFx)
 * [Pixelation](https://github.com/NullTale/PixelationFx)
 * [Ascii](https://github.com/NullTale/AsciiFx)
-* [Dither](https://github.com/NullTale/DitherFx)
+* [Dither]
 * ...
 
 ## Usage
@@ -31,14 +33,23 @@ https://github.com/NullTale/DitherFx.git
 Works as render feature, some parameters </br>
 and default volume settings can be configured in the asset.</br>
 
-SCREEN
+![image](https://github.com/NullTale/DitherFx/assets/1497430/ef3d7a59-590c-4dfb-ae1c-00d5f5754d53)
 
 ## Tech
 
-The effect works by calculation a deviation for each pixel of the original image from the nearest color,</br>
-if it is large enough it replaces it with the second closest color from the palette doing it according to the ScreenSpace pattern. </br>
+The effect works by calculating a deviation for each pixel of the original image from the nearest color,</br>
+if it is large enough it replaces it with the second closest color from the palette doing it according to the ScreenSpace pattern or random noise. </br>
 
 Dither Power, palette, pattern type and its animation can be customized in VolumeSettings or in RenderFeature settings.</br>
-All calculations are performed in the fragment shader through hased Lut tables. Tables are generated at Runtime when an unknown palette is used for the first time.</br>
+All calculations are performed in the fragment shader through hased Lut tables.</br>
+![Gradients](https://github.com/NullTale/DitherFx/assets/1497430/ff27a7f8-3af1-4620-8548-37cc9584e41e)
 
-MEDIA
+To measure a colors of an original image three lut table are used
+* palette color - color replacement from the palette
+* deviation color - second closest color from the palette
+* and measure - distance to the clossets color, used evaluate dithering power
+  
+Tables are generated at Runtime when an unknown palette is used for the first time and shared beetween all features.</br>
+![Luts](https://github.com/NullTale/DitherFx/assets/1497430/95767657-0436-4d0e-b531-a18d556c34d9)
+
+
