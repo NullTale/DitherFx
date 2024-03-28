@@ -10,6 +10,12 @@
 ![_cover](https://github.com/NullTale/DitherFx/assets/1497430/1ae1eee8-6240-48cf-8bd7-1a8a0ad26e59)
 ![_cover](https://github.com/NullTale/DitherFx/assets/1497430/42f734fb-198f-4542-8e8c-7bde042688dc)
 
+## Features
+
+* custom palettes and patterns
+* pattern distribution ​and animation options
+* noise mode
+
 
 ## Part of Artwork Project
 
