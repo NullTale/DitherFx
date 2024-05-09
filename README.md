@@ -16,6 +16,7 @@
 * pattern distribution ​and animation options
 * noise mode
 
+> can post process video with greenscreen to pixe alt sprutes using palette with alpha channel and VolFx
 
 ## Part of Artwork Project
 
