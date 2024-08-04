@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-//  Dither © NullTale - https://twitter.com/NullTale/
+//  Dither © NullTale - https://x.com/NullTale
 namespace VolFx
 {
     public class DitherFx : ScriptableRendererFeature

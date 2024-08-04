@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 namespace VolFx
 {
     [ShaderName("Hidden/VolFx/Dither")]
-    public class DitherPass : VolFxProc.Pass
+    public class DitherPass : VolFx.Pass
     {
         private static readonly int s_Weight      = Shader.PropertyToID("_Weight");
         private static readonly int s_PaletteTex  = Shader.PropertyToID("_PaletteTex");
