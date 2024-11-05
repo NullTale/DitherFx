@@ -1,7 +1,7 @@
 Copyright (c) 2023 NullTale</br>
 License for Non-Commercial Use with Author Attribution</br>
 
-• For commercial use, consider purchasing a license from the [asset store](https://assetstore.unity.com/packages/tools/particles-effects/270928), or contact the author.</br>
+• For commercial use, consider purchasing a license from the Asset Store, or contact the author.</br>
 
 • This product cannot be used in any commercial projects or activities with monetization purposes.</br>
 • You may not sell, publish, or distribute the source code or any modifications of this product as your own.</br>
